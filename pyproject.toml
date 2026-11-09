@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "general-yankee-swap"
+version = "0.1.0"
+description = "General Yankee Swap: fair and efficient allocation of indivisible goods under matroid rank (binary submodular) valuations"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Vignesh Viswanathan", email = "vviswanathan@umass.edu" }]
+keywords = [
+    "fair division",
+    "fair allocation",
+    "matroid rank valuations",
+    "binary submodular",
+    "yankee swap",
+    "nash welfare",
+    "leximin",
+    "maximin share",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/vignesh-viswanathan/general-yankee-swap"
+Repository = "https://github.com/vignesh-viswanathan/general-yankee-swap"
+Issues = "https://github.com/vignesh-viswanathan/general-yankee-swap/issues"
+Paper = "https://doi.org/10.1145/3728367"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

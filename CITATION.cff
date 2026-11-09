@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "general-yankee-swap: General Yankee Swap for fair allocation under matroid rank valuations"
+authors:
+  - family-names: Viswanathan
+    given-names: Vignesh
+license: MIT
+repository-code: "https://github.com/vignesh-viswanathan/general-yankee-swap"
+preferred-citation:
+  type: article
+  title: "A General Framework for Fair Allocation under Matroid Rank Valuations"
+  authors:
+    - family-names: Viswanathan
+      given-names: Vignesh
+    - family-names: Zick
+      given-names: Yair
+  journal: "ACM Transactions on Economics and Computation"
+  volume: 13
+  issue: 3
+  start: 14
+  year: 2025
+  doi: "10.1145/3728367"
